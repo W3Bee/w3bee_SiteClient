@@ -161,7 +161,7 @@ footer div {
 
 .carousel-container {
     display: flex;
-    width: 200%;
+    width: 300%;
     height: 100%;
     transition: margin 1s;
 }
