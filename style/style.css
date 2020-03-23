@@ -14,6 +14,7 @@ footer {
     height: 150px;
     width: 100%;
     background-color: #3a3838;
+    display: flex;
 }
 
 nav {
@@ -24,11 +25,46 @@ nav {
     position: relative;
 }
 
+footer div {
+    height: 100%;
+    width: 100%;
+}
+
+#picto,
+#logo_webee,
+#copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    text-align: center;
+}
+
+#logo_webee img {
+    height: 50%;
+}
+
+#copyright p {
+    height: min-content;
+}
+
+.carousel-dot-list {
+    position: absolute;
+    bottom: -50px;
+    display: flex;
+}
+
 .carousel-dot {
     background-color: #7fb5ea;
     border-radius: 50%;
     height: 20px;
     width: 20px;
+    margin: 5px;
+}
+
+.carousel-dot.active {
+    background-color: #6579db;
 }
 
 #nav {
@@ -39,6 +75,7 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    z-index: 10;
 }
 
 #nav ul {
@@ -77,6 +114,9 @@ nav {
 #main {
     height: 100vh;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #liserai_clair,
@@ -89,9 +129,36 @@ nav {
     transform-origin: center;
     transform: rotate(35deg);
     background-color: #7fb5ea;
+    z-index: 1;
 }
 
 #liserai_fonce {
     bottom: -160px;
     background-color: #6579db;
+}
+
+#carousel {
+    width: 80%;
+    height: 60%;
+    background-color: #7fb5ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#carousel_photo {
+    height: 80%;
+    width: 30%;
+    background-color: #6579db;
+    margin-left: 5%;
+}
+
+#carousel_text {
+    align-self: flex-start;
+    width: 70%;
+    padding-top: 5%;
+    margin-left: 5%;
+    line-height: 250%;
+    font-size: 130%;
 }
