@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Regular';
 }
 
 header {
@@ -106,6 +106,7 @@ footer div {
 #nav a {
     text-decoration: none;
     color: black;
+    font-family: 'Franklin Gothic Regular';
 }
 
 #nav a.active {
@@ -193,4 +194,99 @@ footer div {
     margin-left: 5%;
     line-height: 250%;
     font-size: 130%;
+}
+
+#carousel_text h3 {
+    font-family: 'Domaine Display Narrow Medium';
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Regular'), url('../font/DomaineDispNar-Regular.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Regular Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Regular Italic'), url('../font/DomaineDispNar-RegularItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Medium'), url('../font/DomaineDispNar-Medium.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Medium Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Medium Italic'), url('../font/DomaineDispNar-MediumItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Semibold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Semibold'), url('../font/DomaineDispNar-Semibold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Semibold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Semibold Italic'), url('../font/DomaineDispNar-SemiboldItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Bold'), url('../font/DomaineDispNar-Bold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Bold Italic'), url('../font/DomaineDispNar-BoldItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Extrabold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Extrabold'), url('../font/DomaineDispNar-Extrabold.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Extrabold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Extrabold Italic'), url('../font/DomaineDispNar-ExtraboldItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Black'), url('../font/DomaineDispNar-Black.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Domaine Display Narrow Black Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Domaine Display Narrow Black Italic'), url('../font/DomaineDispNar-BlackItalic.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Franklin Gothic Regular'), url('../font/framd.ttf') format('truetype');
 }
