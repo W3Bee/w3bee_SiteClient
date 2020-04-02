@@ -1,12 +1,3 @@
-@font-face {
-    font-family: "DDN";
-    src: url("font/DomaineDispNar-Regular.otf");
-}
-
-@font-face {
-    font-family: "franklin";
-    src: url("font/framd.ttf");
-}
 
 * {
     margin: 0;
@@ -61,7 +52,7 @@ nav {
     text-decoration: none;
     color: black;
     font-size: 60%;
-    font-weight: bold;
+    
 }
 
 #nav a.active {
@@ -119,12 +110,12 @@ section{
 	grid-auto-rows: minmax(100px, auto);
 }
 
-#video{
-	width: 650px;
-	height: 350px;
-	background-color: lightgray;
-	grid-column: 1,2;
-  	grid-row: 1;
+video{
+    width: 650px;
+    height: 350px;
+    
+    grid-column: 1,2;
+    grid-row: 1;
 }
 
 #text_inge{
